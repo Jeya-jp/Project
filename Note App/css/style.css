@@ -1,0 +1,123 @@
+@font-face{
+    font-family: pt-sansbold;
+    src:url(../Font/PTSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: pt-sansitalic;
+    src:url(../Font/PTSans-Italic.ttf);
+}
+
+@font-face{
+    font-family: pt-sansregular;
+    src:url(../Font/PTSans-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfaee;
+
+}
+input[type="text"] {
+    
+  width: 225px;
+}
+
+input[type ="text"]:hover, textarea:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+}
+.Title1 {
+  overflow: auto;
+  overflow-x: hidden;
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  border-radius: 20px;
+  padding-top: 10px;
+
+  position: relative;
+  border: 0.1px solid black !important;
+
+  width: 23%;
+  height: 175px;
+  text-align: left;
+  transition-property: all;
+    transition-duration: 0.8s;
+    background-color:#fffcec ;
+}
+#notes {
+  width: 100%;
+}
+#box {
+  width: 50%;
+  margin-left: 25%;
+}
+
+header {
+    font-family: pt-sansbold;
+  text-align: center;
+  color: #2ed3c6;
+  background-color: #171d4b;
+  padding: 20px;
+}
+input[type="text"] {
+  width: 60%;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+}
+
+textarea {
+  text-align: center;
+  width: 60%;
+  height: 150px;
+  border-radius: 20px;
+  outline: none;
+}
+
+#boxtext {
+    font-family: pt-sansregular;
+    font-size: 20px;
+    color: #eb5735;
+  margin-left: 20%;
+}
+
+.mytitle {
+    font-family: pt-sansregular;
+  text-transform: uppercase;
+  color: #42d6c9;
+  display: block;
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+.mycontent {
+    font-family: pt-sansitalic;
+  
+  margin-left: 7%;
+  padding-inline-start: 10px;
+  text-align: justify;
+}
+.Title1:hover {
+    transition-property: all;
+    transition-duration: 0.8s;
+    box-shadow: 0px 6px 16.56px 1.44px rgba(0, 0, 0, 0.26);
+    /* box-shadow: 0px 0px 10px gray; */
+    transform: scale(1.01,1.01);
+}
+
+input[type="submit"]{
+    width: 20%;
+    height: 35px;
+    background-color: #eb5735;
+    outline: none;
+    border: whitesmoke;
+    border-radius: 10px;
+    font-family: pt-sansbold;
+    font-size: 15px;
+}
+
+footer{
+  display: block;
+}
